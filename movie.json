@@ -1,0 +1,49 @@
+{
+    "movies": [
+        {
+            "name": "Black Panther",
+            "language": "English",
+            "dimension": "3D",
+            "imageSrc": "/image/BlackPanther.jpg",
+            "theator": "Sharda Theater",
+            "rating": "3",
+            "id": 1
+        },
+        {
+            "name": "Baahubali",
+            "language": "Telugu",
+            "dimension": "2D",
+            "imageSrc": "/image/baahubali.jpeg",
+            "theator": "Sarju Theater",
+            "rating": "4",
+            "id": 2
+        },
+        {
+            "name": "Get Out",
+            "language": "English",
+            "dimension": "2D",
+            "imageSrc": "/image/GetOut.jpg",
+            "theator": "Tripathi Theater",
+            "rating": "5",
+            "id": 3
+        },
+        {
+            "name": "GOT",
+            "language": "English",
+            "dimension": "3D",
+            "imageSrc": "/image/GOT.jpg",
+            "theator": "IP Theater",
+            "rating": "3",
+            "id": 4
+        },
+        {
+            "name": "GOT",
+            "language": "English",
+            "dimension": "3D",
+            "imageSrc": "/image/GOT.jpg",
+            "theator": "IP Theater",
+            "rating": "3",
+            "id": 5
+        }
+    ]
+}

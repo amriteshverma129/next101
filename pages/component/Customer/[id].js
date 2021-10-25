@@ -16,7 +16,7 @@ export async function getStaticPaths(){
 }
 export async function getStaticProps(paths){
     let id=paths.params.id
-    const res=await fetch('https://jsonplaceholder.typicode.com/users/'+id)
+    const res=await fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     const data=await res.json()
 
     return {
@@ -25,7 +25,6 @@ export async function getStaticProps(paths){
         }
     }
 }
-
 const  Person= ({data}) => {
     return ( <div className="container">
        <div className="row">
