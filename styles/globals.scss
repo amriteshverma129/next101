@@ -16,3 +16,9 @@ a {
 * {
   box-sizing: border-box;
 }
+#world{
+  color:white;
+  &:hover{
+    color:blue;
+  }
+}

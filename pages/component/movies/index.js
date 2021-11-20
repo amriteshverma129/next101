@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import style from '../../../styles/Home.module.css'
+import style from '../../../styles/Home.module.scss'
 import axios from 'axios'
 import {useEffect, useState} from 'react'
 import {useRouter} from 'next/router'
@@ -33,7 +33,7 @@ export default function Hello(){
        })}
             </div>
 
-        <h1>Hello World</h1>
+        < h1 id="world">Hello World</h1>
         <Image src="/image/movieBackgorund.webp" height={300} width={300}/>
          <style jsx>{`
          h1{
